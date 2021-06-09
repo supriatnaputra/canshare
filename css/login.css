@@ -1,0 +1,301 @@
+.login-group {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+  }
+  .login-group-posize {
+    position: relative;
+    min-height: 750px;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  .login-flexbox {
+    display: flex;
+    flex-direction: column;
+  }
+  .login-flexbox-posize1 {
+    position: relative;
+    width: 508px;
+    min-width: 508px;
+    margin: 43px auto 66px;
+  }
+  .login-group1 {
+    display: flex;
+  }
+  .login-group1-posize {
+    position: relative;
+    min-height: 569px;
+    margin: 0px 0px 50px;
+  }
+  .login-coverGroup {
+    display: flex;
+    background-color: rgb(255, 218, 234);
+    border-radius: 49px 49px 49px 49px;
+  }
+  .login-coverGroup-posize {
+    position: absolute;
+    top: 51px;
+    bottom: 0px;
+    min-height: 518px;
+    left: 0px;
+    flex-grow: 1;
+    right: 0px;
+  }
+  .login-flexbox-posize {
+    position: relative;
+    flex-grow: 1;
+    margin: 83px 36px 22px;
+  }
+  .login-flexbox1-item {
+    display: flex;
+    flex: 0 0 auto;
+    min-height: 55px;
+  }
+  .login-txt {
+    display: flex;
+    justify-content: center;
+    font: 700 24px/1.2 "Axis", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    letter-spacing: 0;
+  }
+  .login-txt-posize {
+    position: relative;
+    width: fit-content;
+    margin: 0px auto 27px;
+  }
+  .login-flexbox1-item1 {
+    display: flex;
+    flex: 0 1 74px;
+  }
+  .login-coverGroup1 {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 28px 28px 28px 28px;
+  }
+  .login-coverGroup1-posize {
+    position: relative;
+    min-height: 56px;
+    flex-grow: 1;
+    margin: 0px 1px 18px 0px;
+  }
+  .login-txt1 {
+    font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+    color: rgb(192, 79, 128);
+    letter-spacing: 0;
+  }
+  .login-txt1-posize {
+    position: relative;
+    width: fit-content;
+    margin: 16px 0px 19px 27px;
+  }
+  .login-flexbox1-item2 {
+    display: flex;
+    flex: 0 1 86px;
+  }
+  .login-coverGroup2 {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 28px 28px 28px 28px;
+  }
+  .login-coverGroup2-posize {
+    position: relative;
+    min-height: 56px;
+    flex-grow: 1;
+    margin: 0px 1px 30px 0px;
+  }
+  .login-txt2 {
+    font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+    color: rgb(192, 79, 128);
+    letter-spacing: 0;
+  }
+  .login-txt2-posize {
+    position: relative;
+    width: fit-content;
+    margin: 16px 0px 19px 27px;
+  }
+  .login-flexbox1-item3 {
+    display: flex;
+    flex: 0 1 74px;
+  }
+  .login-coverGroup3 {
+    display: flex;
+    background-color: rgb(200, 50, 118);
+    border-radius: 28px 28px 28px 28px;
+  }
+  .login-coverGroup3-posize {
+    position: relative;
+    min-height: 56px;
+    flex-grow: 1;
+    margin: 0px 1px 18px 0px;
+  }
+  .login-txt3 {
+    display: flex;
+    justify-content: center;
+    font: 700 24px/1.2 "Axis", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 0;
+  }
+  .login-txt3-posize {
+    position: relative;
+    width: fit-content;
+    margin: 14px auto;
+  }
+  .login-flexbox1-item4 {
+    display: flex;
+    flex: 0 0 auto;
+    min-height: 83.5px;
+  }
+  .login-txt4 {
+    display: flex;
+    justify-content: center;
+    font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+    color: rgb(89, 94, 210);
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 0;
+  }
+  .login-txt4-posize {
+    position: relative;
+    width: fit-content;
+    margin: 0px auto 63px;
+  }
+  .login-flexbox1-item5 {
+    display: flex;
+    flex: 0 1 19.5px;
+  }
+  .login-rect {
+    background-color: rgb(248, 194, 218);
+  }
+  .login-rect-posize {
+    position: relative;
+    height: 3px;
+    flex-grow: 1;
+    margin: 0px 0px 17px 1px;
+  }
+  .login-flexbox1-item6 {
+    display: flex;
+    flex: 0 1 21px;
+  }
+  .login-group2 {
+    display: flex;
+  }
+  .login-group2-posize {
+    position: relative;
+    height: 21px;
+    flex-grow: 1;
+    margin: 0px 80px 0px 92px;
+  }
+  .login-txt5 {
+    font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0;
+  }
+  .login-txt5-posize {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: fit-content;
+  }
+  .login-txt6 {
+    font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+    color: rgb(89, 94, 210);
+    text-decoration: underline;
+    letter-spacing: 0;
+  }
+  .login-txt6-posize {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 161px;
+    width: fit-content;
+  }
+  .login-icon {
+    background: var(--src) center center / contain no-repeat;
+  }
+  .login-icon-posize {
+    position: relative;
+    height: 116px;
+    width: 116px;
+    min-width: 116px;
+    display: block;
+    margin: 0px auto 453px;
+  }
+  .login-flexbox-item {
+    display: flex;
+    flex: 0 1 22px;
+  }
+  .login-flexbox2 {
+    display: flex;
+  }
+  .login-flexbox2-posize {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px 64px 0px 52px;
+  }
+  .login-flexbox2-item {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 52px;
+  }
+  .login-txt7 {
+    display: flex;
+    justify-content: center;
+    font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+    color: rgb(117, 115, 127);
+    text-align: center;
+    letter-spacing: 0;
+  }
+  .login-txt7-posize {
+    position: relative;
+    width: fit-content;
+    margin: 0px auto 1px;
+  }
+  .login-flexbox2-space {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 26.5px;
+  }
+  .login-flexbox2-item1 {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 170px;
+  }
+  .login-txt8 {
+    display: flex;
+    justify-content: center;
+    font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+    color: rgb(117, 115, 127);
+    text-align: center;
+    letter-spacing: 0;
+  }
+  .login-txt8-posize {
+    position: relative;
+    width: fit-content;
+    margin: 0px auto 1px;
+  }
+  .login-flexbox2-space1 {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 16.5px;
+  }
+  .login-flexbox2-item2 {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 128px;
+  }
+  .login-txt9 {
+    display: flex;
+    justify-content: center;
+    font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+    color: rgb(117, 115, 127);
+    text-align: center;
+    letter-spacing: 0;
+  }
+  .login-txt9-posize {
+    position: relative;
+    width: fit-content;
+    margin: 1px auto 0px;
+  }
+  

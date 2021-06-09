@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar</title>
+    <style>
+        .daftar-group {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+}
+.daftar-group-posize {
+  position: relative;
+  min-height: 1100px;
+  flex-grow: 1;
+  margin: 0px;
+}
+.daftar-flexbox {
+  display: flex;
+  flex-direction: column;
+}
+.daftar-flexbox-posize1 {
+  position: relative;
+  width: 683px;
+  min-width: 683px;
+  margin: 43px auto 66px;
+}
+.daftar-group1 {
+  display: flex;
+}
+.daftar-group1-posize {
+  position: relative;
+  min-height: 893px;
+  margin: 0px 0px 76px;
+}
+.daftar-coverGroup {
+  display: flex;
+  background-color: rgb(255, 218, 234);
+  border-radius: 49px 49px 49px 49px;
+}
+.daftar-coverGroup-posize {
+  position: relative;
+  min-height: 852px;
+  flex-grow: 1;
+  margin: 41px 0px 0px;
+}
+.daftar-flexbox-posize {
+  position: relative;
+  flex-grow: 1;
+  margin: 93px 120px 26px 124px;
+}
+.daftar-flexbox1-item {
+  display: flex;
+  flex: 0 0 auto;
+  min-height: 55px;
+}
+.daftar-txt {
+  display: flex;
+  justify-content: center;
+  font: 700 24px/1.2 "Axis", Helvetica, Arial, serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  letter-spacing: 0;
+}
+.daftar-txt-posize {
+  position: relative;
+  width: fit-content;
+  margin: 0px auto 27px;
+}
+.daftar-flexbox1-item1 {
+  display: flex;
+  flex: 0 1 74px;
+}
+.daftar-coverGroup1 {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 28px 28px 28px 28px;
+}
+.daftar-coverGroup1-posize {
+  position: relative;
+  min-height: 56px;
+  flex-grow: 1;
+  margin: 0px 4px 18px 0px;
+}
+.daftar-txt1 {
+  font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+  color: rgb(192, 79, 128);
+  letter-spacing: 0;
+}
+.daftar-txt1-posize {
+  position: relative;
+  width: fit-content;
+  margin: 16px 0px 19px 27px;
+}
+.daftar-flexbox1-item2 {
+  display: flex;
+  flex: 0 1 74px;
+}
+.daftar-coverGroup2 {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 28px 28px 28px 28px;
+}
+.daftar-coverGroup2-posize {
+  position: relative;
+  min-height: 56px;
+  flex-grow: 1;
+  margin: 0px 4px 18px 0px;
+}
+.daftar-txt2 {
+  font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+  color: rgb(192, 79, 128);
+  letter-spacing: 0;
+}
+.daftar-txt2-posize {
+  position: relative;
+  width: fit-content;
+  margin: 16px 0px 19px 27px;
+}
+.daftar-flexbox1-item3 {
+  display: flex;
+  flex: 0 1 74px;
+}
+.daftar-coverGroup3 {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 28px 28px 28px 28px;
+}
+.daftar-coverGroup3-posize {
+  position: relative;
+  min-height: 56px;
+  flex-grow: 1;
+  margin: 0px 4px 18px 0px;
+}
+.daftar-txt3 {
+  font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+  color: rgb(192, 79, 128);
+  letter-spacing: 0;
+}
+.daftar-txt3-posize {
+  position: relative;
+  width: fit-content;
+  margin: 16px 0px 19px 27px;
+}
+.daftar-flexbox1-item4 {
+  display: flex;
+  flex: 0 1 74px;
+}
+.daftar-coverGroup4 {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 28px 28px 28px 28px;
+}
+.daftar-coverGroup4-posize {
+  position: relative;
+  min-height: 56px;
+  flex-grow: 1;
+  margin: 0px 4px 18px 0px;
+}
+.daftar-txt4 {
+  font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+  color: rgb(192, 79, 128);
+  letter-spacing: 0;
+}
+.daftar-txt4-posize {
+  position: relative;
+  width: fit-content;
+  margin: 16px 0px 19px 27px;
+}
+.daftar-flexbox1-item5 {
+  display: flex;
+  flex: 0 1 74px;
+}
+.daftar-coverGroup5 {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 28px 28px 28px 28px;
+}
+.daftar-coverGroup5-posize {
+  position: relative;
+  min-height: 56px;
+  flex-grow: 1;
+  margin: 0px 4px 18px 0px;
+}
+.daftar-txt5 {
+  font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+  color: rgb(192, 79, 128);
+  letter-spacing: 0;
+}
+.daftar-txt5-posize {
+  position: relative;
+  width: fit-content;
+  margin: 16px 0px 19px 27px;
+}
+.daftar-flexbox1-item6 {
+  display: flex;
+  flex: 0 1 74px;
+}
+.daftar-coverGroup6 {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 28px 28px 28px 28px;
+}
+.daftar-coverGroup6-posize {
+  position: relative;
+  min-height: 56px;
+  flex-grow: 1;
+  margin: 0px 4px 18px 0px;
+}
+.daftar-txt6 {
+  font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+  color: rgb(192, 79, 128);
+  letter-spacing: 0;
+}
+.daftar-txt6-posize {
+  position: relative;
+  width: fit-content;
+  margin: 16px 0px 19px 27px;
+}
+.daftar-flexbox1-item7 {
+  display: flex;
+  flex: 0 1 84px;
+}
+.daftar-coverGroup7 {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-radius: 28px 28px 28px 28px;
+}
+.daftar-coverGroup7-posize {
+  position: relative;
+  min-height: 56px;
+  flex-grow: 1;
+  margin: 0px 4px 28px 0px;
+}
+.daftar-txt7 {
+  font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+  color: rgb(192, 79, 128);
+  letter-spacing: 0;
+}
+.daftar-txt7-posize {
+  position: relative;
+  width: fit-content;
+  margin: 16px 0px 19px 27px;
+}
+.daftar-flexbox1-item8 {
+  display: flex;
+  flex: 0 0 auto;
+}
+.daftar-txt8 {
+  font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+  color: rgb(192, 79, 128);
+  letter-spacing: 0;
+}
+.daftar-txt8-posize {
+  position: relative;
+  width: fit-content;
+  margin: 0px 0px 8px 27px;
+}
+.daftar-flexbox1-item9 {
+  display: flex;
+  flex: 0 1 65px;
+}
+.daftar-flexbox2 {
+  display: flex;
+}
+.daftar-flexbox2-posize {
+  position: relative;
+  flex-grow: 1;
+  margin: 0px 191px 44px 74px;
+}
+.daftar-icon {
+  background: var(--src) center center / contain no-repeat;
+}
+.daftar-icon-posize {
+  position: relative;
+  height: 16px;
+  width: 16px;
+  min-width: 16px;
+  margin: 3px 0px 2px;
+}
+.daftar-flexbox2-space {
+  display: flex;
+  flex: 0 0 auto;
+  min-width: 12px;
+}
+.daftar-flexbox2-item {
+  display: flex;
+  flex: 0 0 auto;
+}
+.daftar-txt9 {
+  font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+  color: rgb(192, 79, 128);
+  letter-spacing: 0;
+}
+.daftar-txt9-posize {
+  position: relative;
+  display: block;
+  width: fit-content;
+  margin: 0px auto;
+}
+.daftar-flexbox2-space1 {
+  display: flex;
+  flex: 1 1 44px;
+}
+.daftar-txt10 {
+  font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+  color: rgb(192, 79, 128);
+  letter-spacing: 0;
+}
+.daftar-txt10-posize {
+  position: relative;
+  display: block;
+  width: fit-content;
+  margin: 0px auto;
+}
+.daftar-flexbox1-item10 {
+  display: flex;
+  flex: 0 1 56px;
+}
+.daftar-coverGroup8 {
+  display: flex;
+  background-color: rgb(200, 50, 118);
+  border-radius: 28px 28px 28px 28px;
+}
+.daftar-coverGroup8-posize {
+  position: relative;
+  min-height: 56px;
+  flex-grow: 1;
+  margin: 0px 0px 0px 4px;
+}
+.daftar-txt11 {
+  display: flex;
+  justify-content: center;
+  font: 700 24px/1.2 "Axis", Helvetica, Arial, serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  letter-spacing: 0;
+}
+.daftar-txt11-posize {
+  position: relative;
+  width: fit-content;
+  margin: 14px auto;
+}
+.daftar-icon-posize2 {
+  position: absolute;
+  top: 0px;
+  height: 116px;
+  left: 0px;
+  right: 0px;
+  width: 116px;
+  min-width: 116px;
+  display: block;
+  margin: 0px auto 777px;
+}
+.daftar-flexbox-item {
+  display: flex;
+  flex: 0 1 22px;
+}
+.daftar-flexbox3 {
+  display: flex;
+}
+.daftar-flexbox3-posize {
+  position: relative;
+  flex-grow: 1;
+  margin: 0px 150px 0px 141px;
+}
+.daftar-flexbox3-item {
+  display: flex;
+  flex: 0 0 auto;
+  min-width: 52px;
+}
+.daftar-txt12 {
+  display: flex;
+  justify-content: center;
+  font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+  color: rgb(117, 115, 127);
+  text-align: center;
+  letter-spacing: 0;
+}
+.daftar-txt12-posize {
+  position: relative;
+  width: fit-content;
+  margin: 0px auto 1px;
+}
+.daftar-flexbox3-space {
+  display: flex;
+  flex: 0 0 auto;
+  min-width: 26.5px;
+}
+.daftar-flexbox3-item1 {
+  display: flex;
+  flex: 0 0 auto;
+  min-width: 170px;
+}
+.daftar-txt13 {
+  display: flex;
+  justify-content: center;
+  font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+  color: rgb(117, 115, 127);
+  text-align: center;
+  letter-spacing: 0;
+}
+.daftar-txt13-posize {
+  position: relative;
+  width: fit-content;
+  margin: 0px auto 1px;
+}
+.daftar-flexbox3-space1 {
+  display: flex;
+  flex: 0 0 auto;
+  min-width: 16.5px;
+}
+.daftar-flexbox3-item2 {
+  display: flex;
+  flex: 0 0 auto;
+  min-width: 128px;
+}
+.daftar-txt14 {
+  display: flex;
+  justify-content: center;
+  font: 18px/1.2 "Product Sans", Helvetica, Arial, serif;
+  color: rgb(117, 115, 127);
+  text-align: center;
+  letter-spacing: 0;
+}
+.daftar-txt14-posize {
+  position: relative;
+  width: fit-content;
+  margin: 1px auto 0px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="daftar-group daftar-group-posize" >
+        <div class="daftar-flexbox daftar-flexbox-posize1">
+          <div class="daftar-group1 daftar-group1-posize">
+            <div class="daftar-coverGroup daftar-coverGroup-posize">
+              <div class="daftar-flexbox daftar-flexbox-posize">
+                <div class="daftar-flexbox1-item"><div class="daftar-txt daftar-txt-posize">Bergabung Bersama Canshare</div></div>
+                <div class="daftar-flexbox1-item1">
+                  <div class="daftar-coverGroup1 daftar-coverGroup1-posize"><div class="daftar-txt1 daftar-txt1-posize">Nama lengkapmu</div></div>
+                </div>
+                <div class="daftar-flexbox1-item2">
+                  <div class="daftar-coverGroup2 daftar-coverGroup2-posize"><div class="daftar-txt2 daftar-txt2-posize">Nama pengguna yang kamu inginkan</div></div>
+                </div>
+                <div class="daftar-flexbox1-item3">
+                  <div class="daftar-coverGroup3 daftar-coverGroup3-posize"><div class="daftar-txt3 daftar-txt3-posize">Email kamu</div></div>
+                </div>
+                <div class="daftar-flexbox1-item4">
+                  <div class="daftar-coverGroup4 daftar-coverGroup4-posize"><div class="daftar-txt4 daftar-txt4-posize">Kota asal kamu</div></div>
+                </div>
+                <div class="daftar-flexbox1-item5">
+                  <div class="daftar-coverGroup5 daftar-coverGroup5-posize"><div class="daftar-txt5 daftar-txt5-posize">Tanggal lahir kamu (dd/mm/yyyy)</div></div>
+                </div>
+                <div class="daftar-flexbox1-item6">
+                  <div class="daftar-coverGroup6 daftar-coverGroup6-posize"><div class="daftar-txt6 daftar-txt6-posize">Buat kata sandi (minimal 8 karakter)</div></div>
+                </div>
+                <div class="daftar-flexbox1-item7">
+                  <div class="daftar-coverGroup7 daftar-coverGroup7-posize"><div class="daftar-txt7 daftar-txt7-posize">Ulangi sandi</div></div>
+                </div>
+                <div class="daftar-flexbox1-item8"><div class="daftar-txt8 daftar-txt8-posize">Apakah kamu menderita kanker?</div></div>
+                <div class="daftar-flexbox1-item9">
+                  <div class="daftar-flexbox2 daftar-flexbox2-posize">
+                    <div style="--src:url(assets/fd0cb427d59e207db1ba13d5a1b6c706.png)" class="daftar-icon daftar-icon-posize"></div>
+                    <div class="daftar-flexbox2-space"></div>
+                    <div class="daftar-flexbox2-item"><div class="daftar-txt9 daftar-txt9-posize">Ya</div></div>
+                    <div class="daftar-flexbox2-space1"></div>
+                    <div style="--src:url(assets/fd0cb427d59e207db1ba13d5a1b6c706.png)" class="daftar-icon daftar-icon-posize"></div>
+                    <div class="daftar-flexbox2-space"></div>
+                    <div class="daftar-flexbox2-item"><div class="daftar-txt10 daftar-txt10-posize">Tidak</div></div>
+                  </div>
+                </div>
+                <div class="daftar-flexbox1-item10">
+                  <div class="daftar-coverGroup8 daftar-coverGroup8-posize"><div class="daftar-txt11 daftar-txt11-posize">DAFTAR</div></div>
+                </div>
+              </div>
+            </div>
+            <div style="--src:url(assets/37ee585734f72e6bd2d3102f6994813b.png)" class="daftar-icon daftar-icon-posize2"></div>
+          </div>
+          <div class="daftar-flexbox-item">
+            <div class="daftar-flexbox3 daftar-flexbox3-posize">
+              <div class="daftar-flexbox3-item"><div class="daftar-txt12 daftar-txt12-posize">About</div></div>
+              <div class="daftar-flexbox3-space"></div>
+              <div class="daftar-flexbox3-item1"><div class="daftar-txt13 daftar-txt13-posize">Terms and Condition</div></div>
+              <div class="daftar-flexbox3-space1"></div>
+              <div class="daftar-flexbox3-item2"><div class="daftar-txt14 daftar-txt14-posize">Canshare 2020</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</body>
+</html>
