@@ -12,6 +12,7 @@
         <div class="grid self-center">
             <center><img src="assets/37ee585734f72e6bd2d3102f6994813b.png" width="75px" style="transform: translateY(35px);"></center>
             <div class="bg-red-100 shadow-lg overflow-hidden max-w-lg rounded-2xl self-center p-10">
+                <form action="" method="post">
                 <div class="grid grid-cols-1 gap-4">
                     <b class="text-center mt-3 font-bold text-xl">Masuk Ke Akun Canshare</b>
                     <input type="text" name="username" class="py-2 px-5 rounded-3xl placeholder-red-500 w-96" placeholder="Masukan email atau nama pengguna">
@@ -21,6 +22,12 @@
                     <hr class="bg-red-600">
                     <p class="text-center">Belum punya akun? <a href="" class="underline text-blue-500 text-center">Daftar Disini</a></p>
                 </div>
+                </form>
+            </div>
+            <div class="flex flex-row justify-center gap-6 mt-14 text-gray-500">
+                <a href="">About</a>
+                <a href="">Terms and Condition</a>
+                <a href="">Canshare 2020</a>
             </div>
         </div>
     </div>
