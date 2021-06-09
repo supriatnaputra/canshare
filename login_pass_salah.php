@@ -19,6 +19,7 @@
                     <input type="password" name="password" class="py-2 px-5 rounded-3xl placeholder-red-500" placeholder="Masukan kata sandi">
                     <input type="submit" value="MASUK" class="py-2 px-5 rounded-3xl bg-red-400 text-white font-bold">
                     <a href="" class="underline text-blue-500 text-center">Lupa kata sandi?</a>
+                    <p class="text-red-500 text-center">Nama pengguna atau kata sandi harus kamu isi!</p>
                     <div class="bg-red-200" style="height: 2px;"></div>
                     <p class="text-center">Belum punya akun? <a href="" class="underline text-blue-500 text-center">Daftar Disini</a></p>
                 </div>
