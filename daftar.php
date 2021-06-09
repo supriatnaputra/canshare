@@ -14,7 +14,7 @@
             <div class="bg-red-100 shadow-lg overflow-hidden max-w-lg rounded-2xl self-center p-10">
                 <form action="" method="post">
                     <div class="grid grid-cols-1 gap-4">
-                        <b class="text-center mt-3 font-bold text-xl">Masuk Ke Akun Canshare</b>
+                        <b class="text-center mt-3 font-bold text-xl">Bergabung Bersama Canshare</b>
                         <input type="text" name="nama" class="py-2 px-5 rounded-3xl placeholder-red-500 w-96" placeholder="Nama Lengkapmu">
                         <input type="text" name="username" class="py-2 px-5 rounded-3xl placeholder-red-500 w-96" placeholder="Nama pengguna yang kamu inginkan">
                         <input type="email" name="username" class="py-2 px-5 rounded-3xl placeholder-red-500 w-96" placeholder="Email kamu">
