@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    <div class="w-full bg-red-300 flex flex-row fixed">
+    <div class="w-full bg-red-300 fixed flex flex-row">
+        <div class="flex flex-row">
         <div class="w-11 bg-red-300 hover:bg-red-400" style="background-image: url('assets/c506cd42d221531be073c743195d1e76.png');background-size: 80%; background-position: center;background-repeat: no-repeat;"></div>
         <div class="text-white px-6 py-3 border-b-4 border-red-400">
             <a href="">Beranda</a>
@@ -23,6 +24,13 @@
         </div>
         <div class="text-white px-6 py-3">
             <a href="">Transaksi</a>
+        </div>
+        </div>
+        <div class="text-white px-6 py-3 flex-grow">
+            <div class="flex flex-row-reverse">
+            <div class="bg-red-300 hover:bg-red-400 mx-2" style="background-image: url('assets/b3f27fe60f71499b5a6ec636ba7ccd15.png');background-size: 80%; background-position: center;background-repeat: no-repeat; width: 30px;"></div>
+            <a href="">Artaptr</a>
+            </div>
         </div>
     </div>
     <div class="grid grid-cols-3 justify-items-center w-full min-h-screen">
