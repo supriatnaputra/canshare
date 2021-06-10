@@ -66,7 +66,7 @@
                             </div>
                             <div class="flex flex-col flex-shrink gap-y-3 w-full">
                                 <b><?php echo $fPost['nama_lengkap']?></b>
-                                <img src="<?php echo $fPost['gambar']?>" alt="" width="100%">
+                                <img src="<?php echo $fPost['gambar']?>" alt="" class="max-w-md">
                                 <p><?php echo $fPost['postingan']?></p>
                                 <form action="" method="post" enctype="multipart/form-data">
                                     <div class="bg-red-200 rounded-3xl px-3 py-1 mt-3">
