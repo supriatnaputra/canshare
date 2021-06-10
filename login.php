@@ -32,7 +32,7 @@
                     <input type="text" name="username" class="py-2 px-5 rounded-3xl placeholder-red-500" placeholder="Masukan email atau nama pengguna">
                     <input type="password" name="password" class="py-2 px-5 rounded-3xl placeholder-red-500" placeholder="Masukan kata sandi">
                     <input type="submit" value="MASUK" name="masuk" class="py-2 px-5 rounded-3xl bg-red-400 text-white font-bold">
-                    <a href="" class="underline text-blue-500 text-center">Lupa kata sandi?</a>
+                    <a href="https://api.whatsapp.com/send/?phone=6287878771645" class="underline text-blue-500 text-center">Lupa kata sandi?</a>
                     <div class="bg-red-200" style="height: 2px;"></div>
                     <p class="text-center">Belum punya akun? <a href="daftar.php" class="underline text-blue-500 text-center">Daftar Disini</a></p>
                 </div>
