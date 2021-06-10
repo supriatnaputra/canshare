@@ -1,3 +1,7 @@
+<?php
+    include 'config/koneksi.php';
+    $profil = mysqli_fetch_array(mysqli_query($con, "SELECT * FROM user WHERE id_user = '$_SESSION[id_user]'"));
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,8 +21,10 @@
                 <div class="grid grid-cols-1 gap-4">
                     <b class="text-center mt-3 font-bold text-3xl text-xl">Donasi berhasil diajukan!</b>
                     <p class="text-center mt-3 font-medium text-xl">Donasi yang diajukan akan dikonfirmasi. Tunggu email atau pesan teks untuk tahap pembuatan ulasan serta informasi transaksi. Terimakasih!</p>
-                    <a href="">
+                    <a href="donasi_ajukan.php">
                         <div class="py-2 px-5 rounded-3xl bg-red-400 text-white font-bold text-center my-2">AJUKAN LAGI</div>
+                    </a>
+                    <a href="beranda.php">
                         <div class="py-2 px-5 rounded-3xl bg-red-400 text-white font-bold text-center my-2">HALAMAN UTAMA</div>
                     </a>
                 </div>

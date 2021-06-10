@@ -354,17 +354,17 @@
               <div class="index-flexbox3-item"><div class="index-txt2 index-txt2-posize">Bercerita, Berbagi, Berkonsultasi</div></div>
               <div class="index-flexbox3-item1">
                 <div class="index-flexbox index-flexbox-posize1">
-                <a href="">  
+                <a href="daftar.php">  
                 <div class="index-flexbox4-item">
                     <div class="index-coverGroup index-coverGroup-posize px-16"><div class="index-txt3 index-txt3-posize">Daftar</div></div>
                   </div>
                   </a>
                   
-                  <a href="">
+                  <a href="login.php">
                   <div class="index-flexbox4-item ml-3">
                     <div class="index-coverGroup1 index-coverGroup1-posize px-16">
                       <div class="index-background index-background-posize"></div>
-                      <div class="index-txt4 index-txt4-posize">Masuk</div>
+                        <div class="index-txt4 index-txt4-posize">Masuk</div>
                     </div>
                   </div>
                   </a>
