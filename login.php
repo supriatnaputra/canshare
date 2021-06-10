@@ -1,6 +1,15 @@
 <?php
+    include 'config/koneksi.php';
     if(isset($_POST['masuk'])){
-        echo "<script>document.location.href='beranda.php'</script>";
+        $cek = mysqli_query($con, "SELECT * FROM user WHERE username = '$_POST[username]' AND password = '$_POST[password]'");
+        $num = mysqli_num_rows($cek);
+        $fCek = mysqli_fetch_array($cek);
+        if($num > 0){
+            $_SESSION['id_user'] = $fCek['id_user'];
+            echo "<script>alert('Selamat Datang ".$fCek['nama_lengkap']."');document.location.href='beranda.php'</script>";
+        }else{
+            echo "<script>alert('Maaf, Username atau Password Salah');document.location.href='login.php'</script>";
+        }
     }
 ?>
 <!DOCTYPE html>

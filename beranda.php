@@ -1,3 +1,8 @@
+<?php 
+    include 'config/koneksi.php';
+    $profil = mysqli_fetch_array(mysqli_query($con, "SELECT * FROM user WHERE id_user = '$_SESSION[id_user]'"));
+   
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,7 +34,7 @@
         <div class="text-white px-6 py-3 flex-grow">
             <div class="flex flex-row-reverse">
             <div class="bg-red-300 hover:bg-red-400 mx-2" style="background-image: url('assets/b3f27fe60f71499b5a6ec636ba7ccd15.png');background-size: 80%; background-position: center;background-repeat: no-repeat; width: 30px;"></div>
-            <a href="">Artaptr</a>
+            <a href="sunting_profil.php"><?php echo $profil['nama_lengkap']?></a>
             </div>
         </div>
     </div>
@@ -49,14 +54,20 @@
                             </div>
                         </form>
                     </div>
+                    <?php
+                        $posting = mysqli_query($con, "SELECT posting.*, user.nama_lengkap FROM posting 
+                        INNER JOIN user ON posting.id_user = user.id_user ORDER BY tgl_posting DESC");
+                        while($fPost = mysqli_fetch_array($posting)){
+                    ?>
                     <div class="bg-red-100 mx-6 mt-4 p-6 rounded-3xl">
                         <div class="flex flex-row gap-3">
                             <div>
                                 <div class="rounded-3xl bg-gray-500" style="width: 50px; height: 50px;"></div>
                             </div>
                             <div class="flex flex-col flex-shrink gap-y-3">
-                                <b>Eryana Nurwendah</b>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <b><?php echo $fPost['nama_lengkap']?></b>
+                                <img src="<?php echo $fPost['gambar']?>" alt="" width="100%">
+                                <p><?php echo $fPost['postingan']?></p>
                                 <form action="" method="post" enctype="multipart/form-data">
                                     <div class="bg-red-200 rounded-3xl px-3 py-1 mt-3">
                                         <div class="flex flex-row justify-end">
@@ -69,48 +80,11 @@
                             </div>
                         </div>
                     </div>
+                    <?php } ?>
 
-                    <div class="bg-red-100 mx-6 mt-4 p-6 rounded-3xl">
-                        <div class="flex flex-row gap-3">
-                            <div>
-                                <div class="rounded-3xl bg-gray-500" style="width: 50px; height: 50px;"></div>
-                            </div>
-                            <div class="flex flex-col flex-shrink gap-y-3">
-                                <b>Eryana Nurwendah</b>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                <form action="" method="post" enctype="multipart/form-data">
-                                    <div class="bg-red-200 rounded-3xl px-3 py-1 mt-3">
-                                        <div class="flex flex-row justify-end">
-                                            <input type="text" name="" id="" class="flex-grow bg-red-200 ml-2" placeholder="Berikan komentar dan semangat disini">
-                                            <a href="" class="h-11 w-11 rounded-3xl bg-red-200 hover:bg-gray-100" style="background-image: url('assets/453b93497d6f891a0803d1dfdbc6c002.png');background-size: 60%; background-position: center;background-repeat: no-repeat;"></a>
-                                            <input type="submit" class="h-11 w-11 rounded-3xl bg-red-200 hover:bg-gray-100" style="background-image: url('assets/12cb71853998f7725e774da88755603f.png');background-size: 60%; background-position: center;background-repeat: no-repeat;" value="">
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+                    
 
-                    <div class="bg-red-100 mx-6 mt-4 p-6 rounded-3xl">
-                        <div class="flex flex-row gap-3">
-                            <div>
-                                <div class="rounded-3xl bg-gray-500" style="width: 50px; height: 50px;"></div>
-                            </div>
-                            <div class="flex flex-col flex-shrink gap-y-3">
-                                <b>Eryana Nurwendah</b>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                <form action="" method="post" enctype="multipart/form-data">
-                                    <div class="bg-red-200 rounded-3xl px-3 py-1 mt-3">
-                                        <div class="flex flex-row justify-end">
-                                            <input type="text" name="" id="" class="flex-grow bg-red-200 ml-2" placeholder="Berikan komentar dan semangat disini">
-                                            <a href="" class="h-11 w-11 rounded-3xl bg-red-200 hover:bg-gray-100" style="background-image: url('assets/453b93497d6f891a0803d1dfdbc6c002.png');background-size: 60%; background-position: center;background-repeat: no-repeat;"></a>
-                                            <input type="submit" class="h-11 w-11 rounded-3xl bg-red-200 hover:bg-gray-100" style="background-image: url('assets/12cb71853998f7725e774da88755603f.png');background-size: 60%; background-position: center;background-repeat: no-repeat;" value="">
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
