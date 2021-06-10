@@ -13,17 +13,17 @@
     <div class="w-full bg-red-300 fixed flex flex-row">
         <div class="flex flex-row">
             <div class="w-11 bg-red-300 hover:bg-red-400" style="background-image: url('assets/c506cd42d221531be073c743195d1e76.png');background-size: 80%; background-position: center;background-repeat: no-repeat;"></div>
+            <div class="text-white px-6 py-3 ">
+                <a href="beranda.php">Beranda</a>
+            </div>
+            <div class="text-white px-6 py-3">
+                <a href="konsultasi.php">Konsultasi</a>
+            </div>
             <div class="text-white px-6 py-3 border-b-4 border-red-400">
-                <a href="">Beranda</a>
+                <a href="donasi.php">Donasi</a>
             </div>
             <div class="text-white px-6 py-3">
-                <a href="">Konsultasi</a>
-            </div>
-            <div class="text-white px-6 py-3">
-                <a href="">Donasi</a>
-            </div>
-            <div class="text-white px-6 py-3">
-                <a href="">Transaksi</a>
+                <a href="teransaksi.php">Transaksi</a>
             </div>
         </div>
         <div class="text-white px-6 py-3 flex-grow">
