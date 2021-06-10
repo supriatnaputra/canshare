@@ -64,7 +64,7 @@
                             <div>
                                 <div class="rounded-3xl bg-gray-500" style="width: 50px; height: 50px;"></div>
                             </div>
-                            <div class="flex flex-col flex-shrink gap-y-3">
+                            <div class="flex flex-col flex-shrink gap-y-3 w-full">
                                 <b><?php echo $fPost['nama_lengkap']?></b>
                                 <img src="<?php echo $fPost['gambar']?>" alt="" width="100%">
                                 <p><?php echo $fPost['postingan']?></p>
