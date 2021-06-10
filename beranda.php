@@ -44,7 +44,7 @@
                 <div>
                     <div class="h-11 w-11 rounded-3xl bg-red-400 hover:bg-gray-100 mt-20 ml-6" style="background-image: url('assets/941a1422d415f0755ee9371d19064a59.png');background-size: 50%; background-position: center;background-repeat: no-repeat;"></div>
                 </div>
-                <div>
+                <div class="w-full">
                     <div class="bg-red-100 m-6 mt-20 p-6 rounded-3xl">
                         <form action="" method="post" enctype="multipart/form-data">
                             <textarea name="cerita" id="" rows="10" class="min-w-full bg-red-100" placeholder="Ceritakan kisahmu atau orang terdekat untuk melawan kanker..."></textarea>
